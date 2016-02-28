@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap的HTML标准模板</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="mystyle2.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="subject-one" class="select-words">
+        <div class="content">
+            <div class="panel panel-default scroll-panel">
+                <div class="panel-heading">
+                    <button class="btn btn-default submit">交卷</button>
+                </div>
+                <div class="panel-body"></div>
+            </div>
+            <div class="pointer">
+            <span class=" glyphicon glyphicon-menu-hamburger"></span>
+            </div>
+        </div>
+        <div class="order-button"></div>
+        <div class="options-table"></div>
+        <div class="answers"></div>
+        <div class="reports">
+            <div class="panel panel-default">
+                <div class="panel-heading">成绩报告</div>
+                <div class="panel-body">
+                    <h1 class="accuracy">20%</h1>
+                    <h5 style="color:#ccc;text-align: center;font-weight: bold;">正确率</h5>
+                    <ul class="reports-list"></ul>
+
+                </div>
+                <div class="panel-footer">
+                    <ul class="pager">
+                        <li class="lookUp">查解析</li>
+                        <li>回列表</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="mask"></div>
+    <script src="../jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="move.js"></script>
+    <script src="selectWords.js"></script>
+    <script src="exam2.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+#subject-one {
+  width: 80%;
+  margin: 20px auto; }
+
+#subject-two {
+  width: 80%;
+  margin: 20px auto; }
+
+.select-words {
+  width: 80%;
+  position: relative;
+  margin: 20px; }
+  .select-words .content {
+    position: relative;
+    margin: 50px; }
+    .select-words .content .scroll-panel .panel-heading {
+      height: 50px; }
+    .select-words .content .scroll-panel .submit {
+      float: right; }
+    .select-words .content .scroll-panel .panel-body {
+      overflow-y: auto;
+      font-size: 18px;
+      line-height: 40px;
+      height: 250px; }
+      .select-words .content .scroll-panel .panel-body span.blank {
+        display: inline-block;
+        min-width: 80px;
+        height: 25px;
+        line-height: 25px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        color: #6FD3F1;
+        text-align: center;
+        margin-right: 5px; }
+      .select-words .content .scroll-panel .panel-body span.backg {
+        background: #6FD3F1;
+        color: white;
+        border-bottom: none; }
+      .select-words .content .scroll-panel .panel-body span.right-span {
+        background: #6AD2BD;
+        color: white;
+        border-bottom: none; }
+      .select-words .content .scroll-panel .panel-body span.error-span {
+        background: #E5E5E5;
+        color: #ED7A86;
+        border-bottom: none;
+        text-decoration: line-through; }
+      .select-words .content .scroll-panel .panel-body span.green-color {
+        color: #6AD2BD; }
+      .select-words .content .scroll-panel .panel-body span.red-color {
+        color: #ED7A86; }
+  .select-words .order-button {
+    text-align: center; }
+    .select-words .order-button .order {
+      display: inline-block;
+      position: relative;
+      margin-right: 10px;
+      width: 30px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 4px;
+      background: #DBDBDB;
+      color: #fff; }
+    .select-words .order-button .right-bg {
+      background: #6AD2BD; }
+    .select-words .order-button .error-bg {
+      background: #ED7A86; }
+    .select-words .order-button .orderselecting:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -7px;
+      left: 7px;
+      border-bottom: 7px solid #616161;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent; }
+    .select-words .order-button .orderselected {
+      background: #6FD3F1; }
+  .select-words .options-table {
+    margin-top: 20px; }
+    .select-words .options-table table {
+      text-align: center; }
+      .select-words .options-table table tr td {
+        cursor: pointer; }
+  .select-words .reports {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    top: 30px; }
+    .select-words .reports .panel-heading {
+      font-weight: bold;
+      text-align: center; }
+    .select-words .reports .panel-body .accuracy {
+      color: #6FD3F1;
+      text-align: center;
+      font-weight: bold; }
+    .select-words .reports .panel-body .reports-list li {
+      list-style: none;
+      text-align: center;
+      float: left;
+      width: 20%;
+      height: 30px;
+      line-height: 30px;
+      margin-bottom: 30px;
+      font-size: 15px; }
+    .select-words .reports .panel-footer .pager {
+      margin: 10px; }
+      .select-words .reports .panel-footer .pager li {
+        width: 200px;
+        height: 30px;
+        color: #6FD3F1;
+        line-height: 30px;
+        border: 1px solid #6FD3F1;
+        border-radius: 10px;
+        display: inline-block;
+        margin-right: 100px;
+        cursor: pointer; }
+  .select-words .answers {
+    margin: 20px;
+    font-size: 20px; }
+
+.mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: black;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  display: none; }
+
+.white-color {
+  color: #fff; }
+
+.blue-color {
+  color: #6FD3F1; }
+
+.green-color {
+  color: #6AD2BD; }
+
+.red-color {
+  color: #ED7A86; }
+
+.pointer {
+  line-height: 40px;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 45%;
+  cursor: n-resize;
+  text-align: center; }
+  .pointer span {
+    color: #ccc; }
+
+/*# sourceMappingURL=mystyle2.css.map */
